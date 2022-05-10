@@ -1,5 +1,5 @@
-import ClientApp from "../components/App.client";
+import MyApp from "../components/App.client";
 
 export default function App({children}) {
-  return <ClientApp>{children}</ClientApp>;
+  return <MyApp>{children}</MyApp>;
 }
