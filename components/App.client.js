@@ -1,5 +1,4 @@
-// import Foo from "./Foo";
-import Foo from "./Foo";
+import Foo from "./Foo.client";
 
 export default function MyApp({ children }) {
   return (
@@ -7,8 +6,8 @@ export default function MyApp({ children }) {
       App Client:
       {children}
       <Foo
-        prop={() => {
-          alert("Yoooo");
+        handleClick={() => {
+          alert("Test");
         }}
       />
     </div>

@@ -1,1 +1,1 @@
-export { default } from "./App.client";
+export {default} from "./App.client";

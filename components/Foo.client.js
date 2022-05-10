@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Foo({ prop }) {
+export default function Foo({ handleClick }) {
   useState();
-  return <button onClick={prop}>Foo!</button>;
+  return <button onClick={handleClick}>Foo!</button>;
 }
