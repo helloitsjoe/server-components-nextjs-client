@@ -1,15 +1,10 @@
-import Foo from "./Foo.client";
+import {useState} from "react";
 
 export default function MyApp({ children }) {
+  useState();
   return (
     <div>
-      App Client:
-      {children}
-      <Foo
-        handleClick={() => {
-          alert("Test");
-        }}
-      />
+      App Client
     </div>
   );
 }
