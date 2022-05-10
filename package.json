@@ -11,7 +11,8 @@
   "dependencies": {
     "next": "canary",
     "react": "experimental",
-    "react-dom": "experimental"
+    "react-dom": "experimental",
+    "typescript": "^4.6.4"
   },
   "devDependencies": {
     "eslint": "8.15.0",
